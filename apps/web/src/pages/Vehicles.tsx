@@ -1,7 +1,7 @@
 import { useVehicles, useSetDefaultVehicle, useDeleteVehicle } from '../hooks/useVehicles'
 import { Layout } from '../components/Layout'
 import { useNavigate } from 'react-router-dom'
-import { Trash2, Star, Edit } from 'lucide-react'
+import { Trash2, Star, CreditCard as Edit } from 'lucide-react'
 
 const BRAND_NAMES: Record<number, string> = {
   1: 'Kia',

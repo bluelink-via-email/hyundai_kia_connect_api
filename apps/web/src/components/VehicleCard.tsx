@@ -1,4 +1,4 @@
-import { Lock, Unlock, Zap, Power } from 'lucide-react'
+import { Lock, Clock as Unlock, Zap, Power } from 'lucide-react'
 import { Vehicle, VehicleStatus } from '../hooks/useVehicles'
 import clsx from 'clsx'
 

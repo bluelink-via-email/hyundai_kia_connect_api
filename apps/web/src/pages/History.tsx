@@ -1,6 +1,6 @@
 import { useHistory } from '../hooks/useHistory'
 import { Layout } from '../components/Layout'
-import { CheckCircle, XCircle, Clock } from 'lucide-react'
+import { CircleCheck as CheckCircle, Circle as XCircle, Clock } from 'lucide-react'
 
 export function History() {
   const { data: history, isLoading } = useHistory()

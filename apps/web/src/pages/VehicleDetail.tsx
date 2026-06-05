@@ -3,7 +3,7 @@ import { useNavigate, useParams } from 'react-router-dom'
 import { useVehicle, useUpdateVehicle, useVehicleStatus, useLockVehicle, useUnlockVehicle, useStartClimate, useStopClimate, useStartCharge, useStopCharge } from '../hooks/useVehicles'
 import { Layout } from '../components/Layout'
 import { CommandButton } from '../components/CommandButton'
-import { Lock, Unlock, Thermometer, Power, Zap, ArrowLeft } from 'lucide-react'
+import { Lock, Clock as Unlock, Thermometer, Power, Zap, ArrowLeft } from 'lucide-react'
 
 const BRAND_NAMES: Record<number, string> = {
   1: 'Kia',
